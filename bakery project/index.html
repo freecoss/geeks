@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Challenge || Materialize CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        /* Exception minimale pour l'image pleine page */
+        .hero-image {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+        .hero-content {
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+            color: white;
+        }
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #007bff;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body class="scrollspy">
+    <a id="back-to-top" class="btn-floating btn-large waves-effect waves-light blue">
+        <i class="material-icons">keyboard_arrow_up</i>
+    </a>      
+    <nav class="black lighten-1">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">My Bakery</a>
+            
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+    
+            <ul class="right hide-on-med-and-down">
+                <li><a href="body">HOME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#bakeries">BAKERIES</a></li>
+                <li><a href="#about">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <ul id="mobile-nav" class="sidenav">
+        <li><a href="body">HOME</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#bakeries">BAKERIES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+    </ul>
+
+    <div class="hero">
+        <img class="hero-image" src="https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=1600
+        " alt="Cookies Levain">
+        
+        <div class="hero-content white-text">
+            <h1>Levain</h1>
+            <div class="divider"></div>
+            <h5>COOKIES</h5>
+            <h5>BAKERIES</h5>
+        </div>
+    </div>
+    <div class="section container">
+        <div class="row">
+            <div class="col s12 center-align">
+                <h3>Sugar & Spice,<br>It's Everything Nice</h3>
+                <p class="flow-text">With deep flavors of ginger, nutmeg, clove, cinnamon and molasses, Fall Chocolate Chunk is the cookie of the season. Only available for a limited time.</p>
+                <a href="#about" class="btn-large waves-effect waves-light brown darken-1">WHO ARE WE!</a>
+            </div>
+        </div>
+    </div>
+    <div id="bakeries" class="section container">
+        <div class="card row">
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="col s12 m4 l3">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="#"><img src="https://images.pexels.com/photos/14565950/pexels-photo-14565950.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></a>
+                        <span class="card-title">test</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section aboutUs container " id="about">
+        <div class="row card ">
+            <div class="col s12 m12 l12">
+                <div class="row valign-wrapper">
+                    <div class="card-image col s12 m6 l6">
+                        <img src="https://images.pexels.com/photos/8027652/pexels-photo-8027652.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                    </div>
+                    <div class="card-content col s12 m6 l6">
+                        <h3 class="center-align">About Us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, eos. Quas, esse optio perferendis doloremque rerum in totam culpa autem magnam, accusamus soluta consequatur aspernatur temporibus voluptates cum! Dolor, corporis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section"></div>
+    <div class=" section mt3 contact container" id="contact">
+        <div class="row card">
+            <div class="col s12 l6 m6">
+                <div class="card-image">
+                    <img src="https://images.pexels.com/photos/5945565/pexels-photo-5945565.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </div>
+            </div>
+            <div class="col s12 l6 m6 right">
+                <div class="card-content">
+                    <h4 class="center-align">Contact us</h4>
+                    <form action="">
+                        <div class="input-field">
+                            <i class="material-icons prefix">person</i>
+                            <input type="text" id="name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                            <input type="text" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">message</i>
+                            <textarea class="materialize-textarea" name="message" id="message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6 m6">
+                    <h5 class="white-text">My Bakery</h5>
+                </div>
+                <div class="col offset-l2">
+                    <h5 class="white-text">social media</h5>
+                    <ul>
+                        <li>
+                            <i class="material-icons">facebook</i>
+                            <a class="grey-text text-lighten-3" href="#!">facebook</a>
+                        </li>
+                        <li>
+                            <i class="material-icons">favorite</i>
+                            <a class="grey-text text-lighten-3" href="#!">instagram</a>
+                        </li>
+                        <li>
+                            <i class="material-icons">3p</i>
+                            <a class="grey-text text-lighten-3" href="#!">twitter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+        const backToTopBtn = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.style.display = 'block';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+        M.Sidenav.init(document.querySelectorAll('.sidenav'));
+});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
